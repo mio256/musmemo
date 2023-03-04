@@ -78,7 +78,7 @@ export default function Home() {
             </form>
           )}
           {Object.values(data).map((item) => (
-            <a key={index} 
+            <a key={item} 
               href="#"
               onClick={() => removeTodo(item)}
               className={styles.card}
